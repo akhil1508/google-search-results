@@ -1,0 +1,169 @@
+#top{
+        border-bottom: 1px solid silver;
+    padding-bottom: 0;
+
+}
+body{
+    font-family: Arial;
+}
+#googleLogo{
+    width: 7%;
+    margin-top: 0.3%;
+}
+form{
+  margin-left: 8%;
+ margin-top: -2.5%;
+    width:70%;
+}
+#searchbar{
+    width: 45%;
+    height: 40px;
+    box-shadow: 0px 2px 2px silver;
+
+   
+}
+#searchbar:focus{
+        box-shadow: 1px 5px 5px silver;
+
+}
+#top #sign-in{
+    float: right;
+    margin-top: -2.4%;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    padding: 8px 8px 8px 8px;
+    border-radius: 2px 2px 2px 2px;
+
+}
+#nav-menu{
+    margin-bottom: 0;
+}
+.browse-types{
+    border: none;
+    background-color: #fff;
+    padding-bottom: 25%;
+    
+
+}
+.browse-types:focus{
+    border-bottom: 5px solid #79f;
+}
+.browse-types a{
+    color: dimgray;
+}
+.browse-types a:hover{
+    color: black;
+}
+#top #sign-in a {
+    color: white;
+}
+
+nav{
+    margin-left: 5.35%;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 0.7%;
+}
+nav ul li a{
+    color: gray;
+     text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+nav ul li:focus{
+    border-bottom-color: blue;
+}
+#search-results header{
+    margin-top: 0.7%;
+    color: gray;
+    margin-left: 8%;
+    font-size: 90%;
+}
+#rows-of-results{
+    margin-left: 5.9%;
+    margin-top: 1.5%;
+}
+#rows-of-results li{
+    list-style: none;
+    width: 32%;
+    margin-top: 1.4%;
+}
+#rows-of-results li a{
+    text-decoration: none;
+    font-size:16px;
+    color: blueviolet;
+}
+#rows-of-results li a:hover {
+    text-decoration: underline;
+}
+#rows-of-results li p{
+    font-size: 13px;
+    
+}
+#rows-of-results li .search-links{
+    color: green;
+    margin:0;
+    padding:0;
+}
+.search-desc{
+    margin-top: 0;
+    padding: 0;
+}
+#related-searches{
+    margin-left: 7.9%;
+}
+#related-searches ul{
+    display: inline-block;
+   padding: 0;
+    margin: 0;
+  
+}
+#related-searches ul li{
+    list-style: none;
+    margin-top: 5%;
+}
+#related-searches ul li a{
+    color:blueviolet;
+    font-size: 14px;
+}
+#left-rel-links{
+    margin-left: 2%;
+}
+footer{
+    border-top: 2px solid   #eef;
+    margin-top: 4%;
+    background-color: #fffefe;
+    
+}
+footer p{
+    margin-left: 7.1%;
+    color: darkgray;
+}
+footer ul{
+    margin-left: 5.1%;
+}
+footer p, footer a{
+    display: inline-block;
+    padding-right: 1.5%;
+    
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2%;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
